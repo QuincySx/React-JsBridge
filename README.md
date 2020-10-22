@@ -27,7 +27,7 @@ class TestComponent extends React.Component {
   render() {
     return (
       <div className="app">
-        <p>来自手机输入【 {this.state.ipvalue} 】</p>
+        <p>来自手机输入【 {this.state.value} 】</p>
         <Button onClick={this.onClick}>调用手机端的方法</Button>
       </div>
     );
